@@ -1,0 +1,7 @@
+exp_name,overall_acc,overall_veri_acc,overall_joint_acc,evidence_score,format_score,label_NOT_SUPPORTED_acc,label_NOT_SUPPORTED_veri_acc,label_NOT_SUPPORTED_joint_acc,label_SUPPORTED_acc,label_SUPPORTED_veri_acc,label_SUPPORTED_joint_acc
+qwen/hover/qwen2.5-3b-ins,62.30%,50.50%,46.30%,0.5022,0.9780,65.60%,65.60%,65.60%,59.00%,35.40%,27.00%
+qwen/hover/qwen2.5-3b-ins-sft,60.90%,49.10%,44.30%,0.4753,0.9750,64.60%,64.60%,64.60%,57.20%,33.60%,24.00%
+qwen/hover/qwen2.5-3b-ins-offline-80step,61.50%,51.00%,45.80%,0.5389,0.9990,62.80%,62.80%,62.80%,60.20%,39.20%,28.80%
+qwen/hover/qwen2.5-3b-ins-online-120step,63.70%,55.10%,53.70%,0.6562,0.9960,65.40%,65.40%,65.40%,62.00%,44.80%,42.00%
+qwen/hover/qwen2.5-7b-ins,65.70%,57.10%,53.60%,0.5646,0.9160,73.20%,73.20%,73.20%,58.20%,41.00%,34.00%
+qwen/hover/qwen2.5-3b-ins-online-label_only,62.30%,53.10%,45.10%,0.5275,0.9980,64.60%,64.60%,64.60%,60.00%,41.60%,25.60%

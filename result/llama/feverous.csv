@@ -1,0 +1,6 @@
+exp_name,overall_acc,overall_veri_acc,overall_joint_acc,evidence_score,format_score,label_NOT ENOUGH INFO_acc,label_NOT ENOUGH INFO_veri_acc,label_NOT ENOUGH INFO_joint_acc,label_REFUTE_acc,label_REFUTE_veri_acc,label_REFUTE_joint_acc,label_SUPPORT_acc,label_SUPPORT_veri_acc,label_SUPPORT_joint_acc
+llama/feverous/llama3.2-3b-ins,41.38%,19.27%,13.27%,0.1934,0.8651,36.05%,36.05%,36.05%,19.73%,4.42%,0.00%,68.37%,17.35%,3.74%
+llama/feverous/llama3.2-3b-ins-sft,43.65%,18.48%,12.24%,0.1995,0.9399,30.95%,30.95%,30.95%,25.51%,7.14%,0.68%,74.49%,17.35%,5.10%
+llama/feverous/llama3.2-3b-ins-offline-65step,44.10%,21.88%,16.10%,0.3097,0.8401,35.03%,35.03%,35.03%,36.73%,15.99%,2.04%,60.54%,14.63%,11.22%
+llama/feverous/llama3.2-3b-ins-online-90step,53.17%,26.30%,19.27%,0.4607,0.9966,31.97%,31.97%,31.97%,42.52%,20.41%,4.08%,85.03%,26.53%,21.77%
+llama/feverous/llama3.1-8b-ins,50.91%,27.32%,19.73%,0.3763,0.9932,39.12%,39.12%,39.12%,37.76%,19.39%,3.40%,75.85%,23.47%,16.67%

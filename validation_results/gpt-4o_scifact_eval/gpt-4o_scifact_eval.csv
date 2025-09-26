@@ -1,0 +1,2 @@
+exp_name,overall_acc,overall_veri_acc,overall_joint_acc,evidence_score,format_score,label_NOT ENOUGH INFO_acc,label_NOT ENOUGH INFO_veri_acc,label_NOT ENOUGH INFO_joint_acc,label_REFUTE_acc,label_REFUTE_veri_acc,label_REFUTE_joint_acc,label_SUPPORT_acc,label_SUPPORT_veri_acc,label_SUPPORT_joint_acc
+gpt-4o_scifact_eval,74.96%,54.43%,38.26%,0.3187,1.0000,79.32%,79.32%,79.32%,76.37%,43.04%,18.99%,69.20%,40.93%,16.46%

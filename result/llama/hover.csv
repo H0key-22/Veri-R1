@@ -1,0 +1,6 @@
+exp_name,overall_acc,overall_veri_acc,overall_joint_acc,evidence_score,format_score,label_NOT_SUPPORTED_acc,label_NOT_SUPPORTED_veri_acc,label_NOT_SUPPORTED_joint_acc,label_SUPPORTED_acc,label_SUPPORTED_veri_acc,label_SUPPORTED_joint_acc
+llama/hover/llama3.2-3b-ins,56.00%,36.30%,31.70%,0.3484,1.0000,46.00%,46.00%,46.00%,66.00%,26.60%,17.40%
+llama/hover/llama3.2-3b-ins-sft,57.40%,38.40%,32.50%,0.3766,1.0000,47.20%,47.20%,47.20%,67.60%,29.60%,17.80%
+llama/hover/llama3.2-3b-ins-offline-65step,57.20%,40.60%,35.90%,0.4587,1.0000,50.40%,50.40%,50.40%,64.00%,30.80%,21.40%
+llama/hover/llama3.2-3b-ins-online-90step,65.40%,54.90%,52.60%,0.6610,1.0000,61.40%,61.40%,61.40%,69.40%,48.40%,43.80%
+llama/hover/llama3.1-8b-ins,67.70%,55.60%,51.50%,0.6209,1.0000,60.40%,60.40%,60.40%,75.00%,50.80%,42.60%

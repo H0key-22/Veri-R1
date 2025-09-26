@@ -1,0 +1,6 @@
+exp_name,overall_acc,overall_veri_acc,overall_joint_acc,evidence_score,format_score,label_NOT ENOUGH INFO_acc,label_NOT ENOUGH INFO_veri_acc,label_NOT ENOUGH INFO_joint_acc,label_REFUTES_acc,label_REFUTES_veri_acc,label_REFUTES_joint_acc,label_SUPPORTS_acc,label_SUPPORTS_veri_acc,label_SUPPORTS_joint_acc
+qwen/fever/qwen2.5-3b-ins,62.78%,47.22%,19.00%,0.2327,0.9867,50.33%,50.33%,50.33%,67.00%,43.00%,1.67%,71.00%,48.33%,5.00%
+qwen/fever/qwen2.5-3b-ins-sft,62.00%,47.56%,19.89%,0.2397,0.9756,49.67%,49.67%,49.67%,62.67%,40.67%,3.00%,73.67%,52.33%,7.00%
+qwen/fever/qwen2.5-3b-ins-offline-80step,67.22%,51.22%,30.11%,0.3441,1.0000,43.67%,43.67%,43.67%,78.00%,52.67%,21.00%,80.00%,57.33%,25.67%
+qwen/fever/qwen2.5-3b-ins-online-120step,69.56%,55.89%,49.11%,0.4630,1.0000,55.00%,55.00%,55.00%,75.33%,54.67%,46.67%,78.33%,58.00%,45.67%
+qwen/fever/qwen2.5-7b-ins,66.11%,49.78%,26.00%,0.3383,0.9956,24.00%,24.00%,24.00%,87.67%,63.67%,23.33%,86.67%,61.67%,30.67%

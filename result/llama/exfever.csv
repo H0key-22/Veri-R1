@@ -1,0 +1,6 @@
+exp_name,overall_acc,overall_veri_acc,overall_joint_acc,evidence_score,format_score,label_NOT ENOUGH INFO_acc,label_NOT ENOUGH INFO_veri_acc,label_NOT ENOUGH INFO_joint_acc,label_REFUTE_acc,label_REFUTE_veri_acc,label_REFUTE_joint_acc,label_SUPPORT_acc,label_SUPPORT_veri_acc,label_SUPPORT_joint_acc
+llama/exfever/llama3.2-3b-ins,37.26%,20.15%,17.24%,0.2444,0.7364,42.59%,42.59%,42.59%,21.29%,3.04%,1.90%,47.91%,14.83%,7.22%
+llama/exfever/llama3.2-3b-ins-sft,37.39%,18.76%,15.08%,0.2433,0.7592,35.74%,35.74%,35.74%,27.00%,3.80%,1.90%,49.43%,16.73%,7.60%
+llama/exfever/llama3.2-3b-ins-offline-65step,41.83%,20.79%,17.49%,0.3140,0.7921,34.60%,34.60%,34.60%,48.29%,11.41%,9.13%,42.59%,16.35%,8.75%
+llama/exfever/llama3.2-3b-ins-online-90step,59.32%,30.29%,28.52%,0.4717,0.9848,52.09%,52.09%,52.09%,65.78%,13.69%,12.55%,60.08%,25.10%,20.91%
+llama/exfever/llama3.1-8b-ins,52.34%,26.87%,24.08%,0.3969,0.9924,49.43%,49.43%,49.43%,46.77%,8.75%,6.84%,60.84%,22.43%,15.97%

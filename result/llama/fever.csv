@@ -1,0 +1,6 @@
+exp_name,overall_acc,overall_veri_acc,overall_joint_acc,evidence_score,format_score,label_NOT ENOUGH INFO_acc,label_NOT ENOUGH INFO_veri_acc,label_NOT ENOUGH INFO_joint_acc,label_REFUTES_acc,label_REFUTES_veri_acc,label_REFUTES_joint_acc,label_SUPPORTS_acc,label_SUPPORTS_veri_acc,label_SUPPORTS_joint_acc
+llama/fever/llama3.2-3b-ins,53.78%,37.67%,13.11%,0.1732,1.0000,32.33%,32.33%,32.33%,51.67%,32.67%,3.33%,77.33%,48.00%,3.67%
+llama/fever/llama3.2-3b-ins-sft,56.00%,41.67%,16.00%,0.1742,1.0000,39.00%,39.00%,39.00%,51.33%,36.33%,4.67%,77.67%,49.67%,4.33%
+llama/fever/llama3.2-3b-ins-offline-65step,57.67%,37.78%,17.89%,0.2601,1.0000,27.00%,27.00%,27.00%,65.67%,43.00%,13.33%,80.33%,43.33%,13.33%
+llama/fever/llama3.2-3b-ins-online-90step,68.44%,53.11%,40.11%,0.4389,1.0000,34.67%,34.67%,34.67%,82.00%,58.00%,44.33%,88.67%,66.67%,41.33%
+llama/hover/llama3.1-8b-ins,67.44%,53.33%,23.56%,0.3368,1.0000,33.67%,33.67%,33.67%,80.67%,59.00%,14.00%,88.00%,67.33%,23.00%

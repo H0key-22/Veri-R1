@@ -1,0 +1,9 @@
+data:
+  path: /tmp/claim_verification_results.jsonl
+  prompt_key: prompt
+  response_key: responses
+  data_source_key: data_source
+  ground_truth_key: ground_truth
+
+# Output configuration
+summary_file: evaluation_summary.csv

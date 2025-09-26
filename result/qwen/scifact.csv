@@ -1,0 +1,7 @@
+exp_name,overall_acc,overall_veri_acc,overall_joint_acc,evidence_score,format_score,label_NOT ENOUGH INFO_acc,label_NOT ENOUGH INFO_veri_acc,label_NOT ENOUGH INFO_joint_acc,label_REFUTE_acc,label_REFUTE_veri_acc,label_REFUTE_joint_acc,label_SUPPORT_acc,label_SUPPORT_veri_acc,label_SUPPORT_joint_acc
+qwen/scifact/qwen2.5-3b-ins,54.43%,37.27%,22.78%,0.1940,0.9142,63.71%,63.71%,63.71%,51.05%,21.52%,2.53%,48.52%,26.58%,2.11%
+qwen/scifact/qwen2.5-3b-ins-sft,55.56%,36.85%,23.77%,0.1972,0.9339,67.93%,67.93%,67.93%,49.79%,19.83%,2.11%,48.95%,22.78%,1.27%
+qwen/scifact/qwen2.5-3b-ins-offline-80step,65.12%,39.94%,28.41%,0.2459,0.9902,69.20%,69.20%,69.20%,60.34%,21.94%,10.13%,65.82%,28.69%,5.91%
+qwen/scifact/qwen2.5-3b-ins-online-120step,63.43%,43.18%,38.82%,0.2713,0.9986,90.30%,90.30%,90.30%,54.43%,19.83%,14.77%,45.57%,19.41%,11.39%
+qwen/scifact/qwen2.5-7b-ins,65.96%,36.01%,24.33%,0.1891,0.9648,54.01%,54.01%,54.01%,67.51%,25.32%,10.13%,76.37%,28.69%,8.86%
+qwen/scifact/qwen2.5-3b-ins-online-label_only,64.56%,47.26%,28.27%,0.1949,1.0000,81.43%,81.43%,81.43%,52.74%,27.43%,1.69%,59.49%,32.91%,1.69%

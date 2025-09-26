@@ -1,0 +1,6 @@
+exp_name,overall_acc,overall_veri_acc,overall_joint_acc,evidence_score,format_score,label_NOT ENOUGH INFO_acc,label_NOT ENOUGH INFO_veri_acc,label_NOT ENOUGH INFO_joint_acc,label_REFUTE_acc,label_REFUTE_veri_acc,label_REFUTE_joint_acc,label_SUPPORT_acc,label_SUPPORT_veri_acc,label_SUPPORT_joint_acc
+llama/scifact/llama3.2-3b-ins,47.54%,24.75%,14.35%,0.0963,1.0000,42.19%,42.19%,42.19%,22.36%,6.75%,0.42%,78.06%,25.32%,0.42%
+llama/scifact/llama3.2-3b-ins-sft,50.49%,26.44%,15.61%,0.1004,1.0000,45.99%,45.99%,45.99%,24.89%,6.75%,0.42%,80.59%,26.58%,0.42%
+llama/scifact/llama3.2-3b-ins-offline-65step,51.76%,24.61%,18.85%,0.0863,1.0000,54.01%,54.01%,54.01%,40.08%,7.17%,1.27%,61.18%,12.66%,1.27%
+llama/scifact/llama3.2-3b-ins-online-90step,66.53%,44.30%,31.65%,0.2410,1.0000,74.26%,74.26%,74.26%,64.98%,27.85%,12.66%,60.34%,30.80%,8.02%
+llama/scifact/llama3.1-8b-ins,58.93%,32.63%,16.32%,0.2073,1.0000,43.04%,43.04%,43.04%,45.57%,17.72%,2.11%,88.19%,37.13%,3.80%

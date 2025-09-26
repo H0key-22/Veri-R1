@@ -1,0 +1,7 @@
+exp_name,overall_acc,overall_veri_acc,overall_joint_acc,evidence_score,format_score,label_NOT ENOUGH INFO_acc,label_NOT ENOUGH INFO_veri_acc,label_NOT ENOUGH INFO_joint_acc,label_REFUTE_acc,label_REFUTE_veri_acc,label_REFUTE_joint_acc,label_SUPPORT_acc,label_SUPPORT_veri_acc,label_SUPPORT_joint_acc
+qwen/feverous/qwen2.5-3b-ins,49.55%,24.15%,16.89%,0.2735,0.8934,40.48%,40.48%,40.48%,29.93%,13.61%,0.00%,78.23%,18.37%,10.20%
+qwen/feverous/qwen2.5-3b-ins-sft,47.39%,23.81%,16.33%,0.2468,0.8912,40.82%,40.82%,40.82%,30.27%,13.61%,0.34%,71.09%,17.01%,7.82%
+qwen/feverous/qwen2.5-3b-ins-offline-80step,53.40%,27.89%,19.16%,0.3837,0.8980,33.67%,33.67%,33.67%,50.68%,23.81%,4.08%,75.85%,26.19%,19.73%
+qwen/feverous/qwen2.5-3b-ins-online-120step,61.22%,36.28%,28.91%,0.4769,0.9830,45.24%,45.24%,45.24%,59.18%,29.93%,11.22%,79.25%,33.67%,30.27%
+qwen/feverous/qwen2.5-7b-ins,53.97%,25.51%,14.17%,0.3397,0.9751,23.47%,23.47%,23.47%,59.52%,27.89%,2.72%,78.91%,25.17%,16.33%
+feverous/qwen2.5-3b-ins-online-label_only,58.28%,29.59%,18.03%,0.3274,0.0000,38.44%,38.44%,38.44%,54.08%,25.85%,1.36%,82.31%,24.49%,14.29%
