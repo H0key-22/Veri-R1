@@ -6,31 +6,11 @@ export WANDB_API_KEY=''
 export DATA_DIR=/datadisk/data
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
-# export BASE_MODEL='/datadisk/model/qwen2.5-3b-ins'
-# export EXPERIMENT_NAME=qwen2.5-3b-ins-online-labelonly
-
-# export BASE_MODEL='/datadisk/model/qwen2.5-3b-ins'
-# export EXPERIMENT_NAME=qwen2.5-3b-ins-online-no_validity_weight
+export BASE_MODEL='/datadisk/model/qwen2.5-3b-ins'
+export EXPERIMENT_NAME=qwen2.5-3b-ins-online
 
 # export BASE_MODEL='/datadisk/model/llama3.2-3b-ins'
-# export EXPERIMENT_NAME=llama3.2-3b-ins-online-no_validity_weight
-
-# export BASE_MODEL='/datadisk/model/qwen2.5-3b-ins'
-# export EXPERIMENT_NAME=qwen2.5-3b-ins-evi-true
-# export EXPERIMENT_NAME=qwen2.5-3b-ins-label-only
-# export BASE_MODEL='Qwen/Qwen2.5-3B-Instruct'
-# export EXPERIMENT_NAME=nq-search-r1-grpo-qwen2.5-3b-it-em
-# export BASE_MODEL='Qwen/Qwen2.5-7B'
-# export EXPERIMENT_NAME=nq-search-r1-grpo-qwen2.5-7b-em
-# export BASE_MODEL='Qwen/Qwen2.5-7B-Instruct'
-# export EXPERIMENT_NAME=nq-search-r1-grpo-qwen2.5-7b-it-em
-
-
-# export BASE_MODEL='/datadisk/checkpoints/Veri-R2/qwen2.5-3b-ins-offline/global_step_50_val_0.8203'
-# export EXPERIMENT_NAME=scifact_off/qwen2.5-3b-ins-offline-online
-
-# export BASE_MODEL='/datadisk/checkpoints/Veri-R2/qwen2.5-3b-ins-offline/actor/global_step_75_val_0.8379'
-# export EXPERIMENT_NAME=qwen2.5-3b-ins-offline-online
+# export EXPERIMENT_NAME=llama3.2-3b-ins-online
 
 # set -x
 export VLLM_ATTENTION_BACKEND=XFORMERS # vllm + qwen2-7b with flash_attn has some issues
@@ -39,7 +19,7 @@ export VLLM_ATTENTION_BACKEND=XFORMERS # vllm + qwen2-7b with flash_attn has som
 
 PYTHONUNBUFFERED=1 python3 -m verl.trainer.main_ppo \
     data.train_files=$DATA_DIR/train_online.parquet \
-    data.val_files=$DATA_DIR/test_on.parquet \
+    data.val_files=$DATA_DIR/test_online.parquet \
     data.train_data_num=null \
     data.val_data_num=null \
     data.train_batch_size=256 \

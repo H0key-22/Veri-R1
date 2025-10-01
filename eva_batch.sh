@@ -12,6 +12,9 @@ num_pair["feverous"]=441
 num_pair["exfever"]=789
 num_pair["scifact"]=711
 
+
+export RESULT_PATH=qwen/exfever
+
 export MODEL_NAME=qwen
 MODELS=(
     "/datadisk/model/qwen2.5-3b-ins"
@@ -28,7 +31,7 @@ EXPS=(
     "qwen2.5-3b-ins-online-120step"
 )
 
-export RESULT_PATH=qwen/exfever
+# export RESULT_PATH=llama/exfever
 
 # export MODEL_NAME=llama
 # MODELS=(
@@ -58,7 +61,6 @@ for i in "${!MODELS[@]}"; do
   echo "=== Experiment: $EXPERIMENT_NAME ==="
   PYTHONUNBUFFERED=1 python3 -m verl.trainer.main_ppo \
     eval.save_csv=true \
-    data.train_files=$DATA_DIR/test_on.parquet \
     data.val_files=$DATA_DIR/hold_out/$DATA_NAME.parquet \
     data.train_data_num=null \
     data.val_data_num=null \

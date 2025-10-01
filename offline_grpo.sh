@@ -6,14 +6,11 @@ export WANDB_API_KEY=''
 export DATA_DIR=/datadisk/data
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
-# export BASE_MODEL='/datadisk/model/llama3.2-3b-ins'
-# export EXPERIMENT_NAME=llama3.2-3b-ins-offline
-
 export BASE_MODEL='/datadisk/model/qwen2.5-3b-ins'
 export EXPERIMENT_NAME=qwen2.5-3b-ins-offline
 
-# export BASE_MODEL='/datadisk/model/qwen2.5-3b'
-# export EXPERIMENT_NAME=qwen2.5-3b-off
+# export BASE_MODEL='/datadisk/model/llama3.2-3b-ins'
+# export EXPERIMENT_NAME=llama3.2-3b-ins-offline
 
 # set -x
 export VLLM_ATTENTION_BACKEND=XFORMERS # vllm + qwen2-7b with flash_attn has some issues
@@ -22,7 +19,7 @@ export VLLM_ATTENTION_BACKEND=XFORMERS # vllm + qwen2-7b with flash_attn has som
 
 PYTHONUNBUFFERED=1 python3 -m verl.trainer.main_ppo \
     data.train_files=$DATA_DIR/train_offline.parquet \
-    data.val_files=$DATA_DIR/test_off.parquet \
+    data.val_files=$DATA_DIR/test_offline.parquet \
     data.train_data_num=null \
     data.val_data_num=null \
     data.train_batch_size=256 \
