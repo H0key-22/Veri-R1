@@ -1,2 +1,0 @@
-exp_name,overall_acc,overall_veri_acc,overall_joint_acc,evidence_score,format_score,label_NOT ENOUGH INFO_acc,label_NOT ENOUGH INFO_veri_acc,label_NOT ENOUGH INFO_joint_acc,label_REFUTES_acc,label_REFUTES_veri_acc,label_REFUTES_joint_acc,label_SUPPORTS_acc,label_SUPPORTS_veri_acc,label_SUPPORTS_joint_acc
-gpt-4o_fever_eval,74.33%,60.44%,41.11%,0.4242,1.0000,41.33%,41.33%,41.33%,91.33%,69.33%,38.00%,90.33%,70.67%,44.00%
