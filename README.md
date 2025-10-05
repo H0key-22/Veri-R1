@@ -112,7 +112,7 @@ sh offline_grpo.sh
 ### Superviesd Finetuning(SFT)
 
 We use **[LLaMA Factory](https://github.com/hiyouga/LLaMA-Factory)** for the fine-tuning process.
- The supervised fine-tuning (SFT) data is located at:`data/sft`
+ The supervised fine-tuning (SFT) data is located at:`example/train/train_sft.json`
 
 ## Evaluation
 
