@@ -17,7 +17,6 @@ tensorflow/my_graph/*
 .idea/
 # C extensions
 *.so
-data
 sft/output/*
 sft/data/*
 
