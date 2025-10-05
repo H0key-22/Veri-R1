@@ -150,6 +150,12 @@ You can configure the target model, number of workers, and batch size.
 
 We also support direct evaluation with generated answers.
 
+Run:
+
+```
+sh run_result_eval.sh
+```
+
 Each entry in the JSONL file should include the following fields:
 
 ```
