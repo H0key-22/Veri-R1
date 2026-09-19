@@ -83,7 +83,7 @@ Because evidence IDs are tracked at the sentence level, the retrieved sentences 
 ### Index Corpus
 
 ```
-cd seach_engine/search
+cd search_engine/search
 # change path to your own corpus
 sh build_index.sh
 ```
